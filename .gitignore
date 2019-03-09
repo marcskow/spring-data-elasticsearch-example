@@ -11,7 +11,7 @@
 .idea/**/modules/**
 .idea/**/compiler.xml
 .idea/**/encodings.xml
-.idea/**/datasources.xml
+.idea/**/dataSources.xml
 .idea/**/modules.xml
 .idea/**/misc.xml
 .idea/**/tasks.xml

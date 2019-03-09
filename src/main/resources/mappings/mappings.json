@@ -1,0 +1,25 @@
+{
+  "person": {
+    "properties": {
+      "firstName": {
+        "type": "text"
+      },
+      "lastName": {
+        "type": "text",
+        "fields": {
+          "lastNameCommon": {
+            "analyzer": "lastNameAnalyzer",
+            "type": "text"
+          },
+          "lastNameTrigram": {
+            "type": "text",
+            "analyzer": "trigram"
+          }
+        }
+      },
+      "age": {
+        "type": "integer"
+      }
+    }
+  }
+}

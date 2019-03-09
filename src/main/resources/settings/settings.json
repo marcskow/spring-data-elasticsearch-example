@@ -1,0 +1,25 @@
+{
+  "number_of_shards": 1,
+  "number_of_replicas": 0,
+  "max_result_window": 10000,
+  "analysis": {
+    "analyzer": {
+      "lastNameAnalyzer": {
+        "filter": [
+          "lowercase"
+        ],
+        "type": "custom",
+        "tokenizer": "whitespace"
+      },
+      "trigram": {
+        "type": "custom",
+        "tokenizer": "standard",
+        "filter": [
+          "standard",
+          "shingle",
+          "lowercase"
+        ]
+      }
+    }
+  }
+}

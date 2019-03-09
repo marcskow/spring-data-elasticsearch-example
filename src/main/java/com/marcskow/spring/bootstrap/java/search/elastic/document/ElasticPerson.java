@@ -5,6 +5,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.data.elasticsearch.annotations.Document;
+import org.springframework.data.elasticsearch.annotations.Mapping;
+import org.springframework.data.elasticsearch.annotations.Setting;
 
 import javax.persistence.Id;
 
@@ -13,6 +15,8 @@ import javax.persistence.Id;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Setting(settingPath = "/settings/settings.json")
+@Mapping(mappingPath = "/mappings/mappings.json")
 public class ElasticPerson {
     @Id
     private String id;
