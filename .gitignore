@@ -8,6 +8,12 @@
 
 # User-specific stuff
 .idea/**/workspace.xml
+.idea/**/modules/**
+.idea/**/compiler.xml
+.idea/**/encoding.xml
+.idea/**/datasources.xml
+.idea/**/modules.xml
+.idea/**/misc.xml
 .idea/**/tasks.xml
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
@@ -23,6 +29,7 @@
 .idea/**/sqlDataSources.xml
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
+.idea/**/vcs.xml
 .idea/**/dbnavigator.xml
 
 # Gradle
@@ -80,6 +87,7 @@ fabric.properties
 
 # Sonarlint plugin
 .idea/sonarlint
+.idea/sonarIssues.xml
 
 ### Java ###
 # Compiled class file
