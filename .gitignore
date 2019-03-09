@@ -10,7 +10,7 @@
 .idea/**/workspace.xml
 .idea/**/modules/**
 .idea/**/compiler.xml
-.idea/**/encoding.xml
+.idea/**/encodings.xml
 .idea/**/datasources.xml
 .idea/**/modules.xml
 .idea/**/misc.xml
