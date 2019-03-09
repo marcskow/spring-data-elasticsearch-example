@@ -79,6 +79,17 @@ curl -X POST \
 curl -X GET 'http://localhost:8080/api/search?firstName=Marcin&page=0&size=5'
 ```
 
+### Reindexing
+Reindexing process in my app does not provide consistency, it is only proof of concept about 
+making whole database table reindex. It also do not prevent from threat race problems 
+with indexing new documents during reindex process.
+This example should only show the idea of reindexing, but it is only prototype now 
+and it is not clear when and how I would improve the process.
+
+Probably
+[Index Alias](https://www.elastic.co/guide/en/elasticsearch/reference/current/indices-aliases.html)
+should be used in this case.
+
 ### Links
 How to configure Spring Data Elasticsearch?  
 [Baeldung](https://www.baeldung.com/spring-data-elasticsearch-tutorial)
